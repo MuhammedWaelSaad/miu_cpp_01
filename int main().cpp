@@ -1,18 +1,22 @@
 #include <iostream>
 
+
+using namespace std;
+
+ 
 int main()
 {
     int x;
-    std::cout << "Enter numbers: " << std::endl;
-    std::cin >> x;
+    cout << "Enter numbers: " << endl;
+    cin >> x;
 
     if (x % 2 == 0)
     {
-        std::cout << " number is even" << std::endl;
+        cout << " number is even" << endl;
     }
     else
     {
-        std::cout << "number is odd" << std::endl;
+        cout << "number is odd" << endl;
     }
     return 0;
 }
